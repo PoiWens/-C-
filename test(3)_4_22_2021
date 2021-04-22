@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+	int score = 0;
+	while ((scanf("%d", &score)!=EOF))
+	{
+		if (score >= 60 && score <= 100)
+			printf("Pass\n");
+		else if (score >= 0 && score < 60)
+			printf("Fail\n");
+	}
+	return 0;
+}
