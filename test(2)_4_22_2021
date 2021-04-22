@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+   int weight=0;
+    int high=0;
+    float high1=0;
+    float BMI=0;
+    scanf("%d %d",&weight,&high);
+    high1=(float)high/100;
+    BMI=weight/high1/high1;
+    printf("%.2f\n",BMI);
+    return 0;
+}
